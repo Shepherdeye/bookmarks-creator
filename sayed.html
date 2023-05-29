@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Bookmark</title>
+</head>
+<body>
+   
+ 
+    <div class=" container p-4 text-center h-75 w-75  mt-4 " >
+        <form>
+        <h1> Bookmark</h1>
+        <label>Site name</label>
+        <input type="text" class=" form-control m-2" id="input1" placeholder=" website name" >
+        <label>Site URL</label>
+        <input type="url" class=" form-control m-2" id="input2" placeholder=" https://www.website name.com" >
+        <input type="submit" class=" btn btn-info mt-3" id="button" value="Add Bookmark"> </input>
+    </form>
+    </div>
+    <br>
+<input type="text" id="search" class=" form-control w-25 justify-content-center"  placeholder=" Search" >
+    <br>
+    <table class="table w-75 m-auto mt-4" >
+        <thead class=" text-center">
+            <tr>
+                <th>Name</th>
+                <th>Visit</th>
+                <th>Update</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody id="tbody" class=" text-center">
+          
+   
+        </tbody>
+    </table>
+
+  
+   
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/brain.js"></script>
+</body>
+
+</html>

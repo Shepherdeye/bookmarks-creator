@@ -1,0 +1,11 @@
+.container{
+    background-color: #e7e7e7;
+}
+#search{
+    position: relative;
+    left: 50%;
+}
+.disabled{
+    cursor: no-drop !important;
+    background-color: #17a2b88a;
+}
